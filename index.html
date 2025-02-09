@@ -7,18 +7,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
-        <div id="question-container">
-            <h1>The Test Tester</h1>
-            <div id="question"></div>
-            <input type="number" id="answer" min="0" max="10">
-            <button onclick="nextQuestion()">Next</button>
-        </div>
-        <div id="result-container" style="display: none;">
-            <h1>Your Total Score</h1>
-            <div id="total-score"></div>
-            <div id="custom-message"></div>
-        </div>
+    <div class="container">
+        <h1>The Test Tester</h1>
+        <form id="testForm">
+            <div class="question">
+                <label for="q1">Question 1:</label>
+                <input type="number" id="q1" name="q1" required>
+            </div>
+            <div class="question">
+                <label for="q2">Question 2:</label>
+                <input type="number" id="q2" name="q2" required>
+            </div>
+            <div class="question">
+                <label for="q3">Question 3:</label>
+                <input type="number" id="q3" name="q3" required>
+            </div>
+            <div class="question">
+                <label for="q4">Question 4:</label>
+                <input type="number" id="q4" name="q4" required>
+            </div>
+            <div class="question">
+                <label for="q5">Question 5:</label>
+                <input type="number" id="q5" name="q5" required>
+            </div>
+            <div class="question">
+                <label for="q6">Question 6:</label>
+                <input type="number" id="q6" name="q6" required>
+            </div>
+            <div class="question">
+                <label for="q7">Question 7:</label>
+                <input type="number" id="q7" name="q7" required>
+            </div>
+            <div class="question">
+                <label for="q8">Question 8:</label>
+                <input type="number" id="q8" name="q8" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
     </div>
     <script src="script.js"></script>
 </body>
