@@ -8,45 +8,36 @@
 </head>
 <body>
     <div class="container">
-        <h1>The Test Tester</h1>
+        <h1>The Test Test</h1>
         <form id="testForm">
-            <div class="question">
+            <div class="question" id="question1">
                 <label for="q1">Did you go to the gym today? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q1" name="q1" required>
             </div>
-            <div class="question" id="gymScreams" style="display: none;">
-                <label for="q1a">How many times did you scream in the gym today?</label>
-                <input type="number" id="q1a" name="q1a">
-            </div>
-            <div class="question">
+            <div class="question" id="question2" style="display: none;">
                 <label for="q2">Did you read today? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q2" name="q2" required>
             </div>
-            <div class="question" id="readingMinutes" style="display: none;">
-                <label for="q2a">How many minutes did you spend reading?</label>
-                <input type="number" id="q2a" name="q2a">
-            </div>
-            <div class="question">
+            <div class="question" id="question3" style="display: none;">
                 <label for="q3">Did you complain today? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q3" name="q3" required>
             </div>
-            <div class="question">
+            <div class="question" id="question4" style="display: none;">
                 <label for="q4">Did you accomplish a goal you set for yourself today? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q4" name="q4" required>
             </div>
-            <div class="question">
+            <div class="question" id="question5" style="display: none;">
                 <label for="q5">Did you eat a good quantity of healthy whole foods? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q5" name="q5" required>
             </div>
-            <div class="question">
+            <div class="question" id="question6" style="display: none;">
                 <label for="q6">Did you criticize someone today in a manner that isn't going to benefit anyone besides your ego? (1 for Yes, 0 for No):</label>
                 <input type="number" id="q6" name="q6" required>
             </div>
-            <button type="submit">Submit</button>
+            <button type="button" id="nextButton">Next</button>
         </form>
-        <div id="result"></div>
+        <div id="result" style="display: none;"></div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
