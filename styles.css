@@ -15,3 +15,15 @@ body {
 .question {
     margin: 20px 0;
 }
+
+#nextButton {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: darkgrey;
+    border: none;
+    cursor: pointer;
+}
+
+#nextButton:hover {
+    background-color: grey;
+}
